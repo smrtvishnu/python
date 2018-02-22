@@ -10,7 +10,7 @@ int main()
         scanf("%d",&num);
   
         if(num==0)      
-            printf("Number is ZERO.");
+            printf("Number is three.");
         else if(num>0)   
             printf("Number is POSITIVE.");
         else          
