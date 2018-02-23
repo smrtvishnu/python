@@ -1,5 +1,3 @@
-import math
-
 number = int (input ('Enter number: '))
 
 if number % 2 == 0 and number != 0:
