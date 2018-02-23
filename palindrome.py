@@ -1,11 +1,21 @@
-n=int(input("Enter number:"))
-temp=n
-rev=0
-while(n>0):
-    dig=n%10
-    rev=rev*10+dig
-    n=n//10
-if(temp==rev):
-    print("The number is a palindrome!")
+def reverse(s):
+    return s[::-1]
+ 
+def isPalindrome(s):
+    # Calling reverse function
+    rev = reverse(s)
+ 
+    # Checking if both string are equal or not
+    if (s == rev):
+        return True
+    return False
+ 
+ 
+# Driver code
+s = "malayalam"
+ans = isPalindrome(s)
+ 
+if ans == 1:
+    print("Yes")
 else:
-    print("The number isn't a palindrome!")
+    print
